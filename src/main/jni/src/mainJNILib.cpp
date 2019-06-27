@@ -416,8 +416,8 @@ static void renderPageInternal( FPDF_PAGE page,
     	flags |= FPDF_ANNOT;
     }
 
-    FPDFBitmap_FillRect( pdfBitmap, baseX, baseY, baseHorSize, baseVerSize,
-                         0xFFFFFFFF); //White
+    //FPDFBitmap_FillRect( pdfBitmap, baseX, baseY, baseHorSize, baseVerSize,
+    //                     0xFFFFFFFF); //Whiteå
 
     FPDF_RenderPageBitmap( pdfBitmap, page,
                            startX, startY,
